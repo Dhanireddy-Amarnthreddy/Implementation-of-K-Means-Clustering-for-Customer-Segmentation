@@ -24,7 +24,7 @@ Developed by: D.Amarnath Reddy
 RegisterNumber: 212221240012
 */
 ```
-/*
+~~~
 import pandas as pd
 import matplotlib.pyplot as plt
 data = pd.read_csv("Mall_Customers.csv")
@@ -65,9 +65,7 @@ plt.scatter(df3["Annual Income (k$)"],df3["Spending Score (1-100)"],c="red",labe
 plt.scatter(df4["Annual Income (k$)"],df4["Spending Score (1-100)"],c="orange",label="cluster4")
 plt.title("Customer Segment")
 plt.legend()
-
-*/
-```
+~~~
 
 ## Output:
 
